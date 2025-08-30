@@ -64,7 +64,7 @@ def calculate_discount(price , discount_percent):
         return final_price, message
     
     else:
-        return price, f"Discount not applied: {disc"
+        return price, f"Discount not applied: {discount_percent} less than 20% threshold"
 
 price = int(input("Enter the original price of the item: "))
 discount_percent = int(input('Enter the discount: '))
